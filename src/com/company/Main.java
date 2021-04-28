@@ -12,7 +12,6 @@ public class Main {
         displayer(mappedPeople, (x -> x > legalAge));
     }
 
-
     // display all above legal limit
     private static void displayer(Map<String, Integer> people, filterAge filterAge) {
         people.entrySet().stream()                              // Stream maps entry pairs
